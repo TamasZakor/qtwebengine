@@ -1,8 +1,3 @@
 self.addEventListener('install', function(event) {
-    self.skipWaiting();
+  console.log('called sw.js');
 });
-  
-self.addEventListener('sync', function(event) {
-    self.registration.showNotification("Sync event fired!");
-});
-  
